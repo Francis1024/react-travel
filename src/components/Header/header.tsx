@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from "../../logo.svg"
+import logo from "../../assets/images/logo.svg"
 import styles from './header.module.css'
 import { Layout, Typography, Input, Dropdown, Menu, Button } from 'antd';
 import { GlobalOutlined } from '@ant-design/icons';
 
 
-const Header: React.FC = () => {
+export const Header: React.FC = () => {
   return (
     <div className={styles['app-header']}>
 				{/* top header -  start */}
@@ -58,4 +58,4 @@ const Header: React.FC = () => {
   )
 }
 
-export default Header
+// export default Header
