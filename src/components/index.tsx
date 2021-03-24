@@ -1,2 +1,3 @@
-export * from './Footer/footer';
-export * from './Header/header';
+export * from './footer/footer';
+export * from './header/header';
+export * from './sideMenu';

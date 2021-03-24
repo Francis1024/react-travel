@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "../../assets/images/logo.svg"
+import logo from "../../assets/logo.svg"
 import styles from './header.module.css'
 import { Layout, Typography, Input, Dropdown, Menu, Button } from 'antd';
 import { GlobalOutlined } from '@ant-design/icons';
@@ -32,7 +32,7 @@ export const Header: React.FC = () => {
 				<Layout.Header className={styles['main-header']}>
 					<img src={logo} alt="logo" className={styles['App-logo']} />
 					<Typography.Title level={3} className={styles.title}>
-						React 旅游网
+						{/* 咚咚旅游网 */}
 					</Typography.Title>
 					<Input.Search className={styles['search-input']} placeholder={'请输入旅游目的地，主题或者关键字'} />
 				</Layout.Header>
